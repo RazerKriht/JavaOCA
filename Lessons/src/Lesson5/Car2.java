@@ -3,7 +3,7 @@ package Lesson5;
 public class Car2 {
     String color;
     String engine;
-    int speed;
+    int speed; //Hello!
 
     int gas(int speedNum){
         speed*=speedNum;
