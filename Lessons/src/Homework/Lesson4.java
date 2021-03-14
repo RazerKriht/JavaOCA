@@ -1,4 +1,4 @@
-package Homeworks;
+package Homework;
 
 class Student{
     int number;
