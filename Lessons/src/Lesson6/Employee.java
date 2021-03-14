@@ -2,7 +2,7 @@ package Lesson6;
 
 public class Employee {
     Employee(int id2, String surname2, int age2){
-        this(id2, surname2,age2,0.0,null);
+        this(id2,surname2,age2,0.0,null);
     }
 
     Employee(String surname3, int age3){
