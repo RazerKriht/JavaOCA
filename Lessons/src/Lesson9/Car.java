@@ -20,7 +20,7 @@ public class Car {
     Car(String color, String engine){
         count++;
         this.color=color;
-        this.engine = engine; //
+        this.engine = engine;
     }
 
     public void showColor(){
