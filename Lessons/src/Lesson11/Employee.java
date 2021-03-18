@@ -13,6 +13,10 @@ public class Employee {
         a*=2;
         return a;
     }
+    public double zp2(){
+        salary*=2;
+        return salary;
+    }
 }
 
 class EmployeeTest{
@@ -21,5 +25,7 @@ class EmployeeTest{
         double d = emp1.maxer(emp1.salary);
         System.out.println(emp1.salary);
         System.out.println(d);
+        emp1.zp2();
+        System.out.println(emp1.salary);
     }
 }
