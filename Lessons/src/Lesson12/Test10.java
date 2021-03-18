@@ -16,6 +16,13 @@ public class Test10 {
             a--;
         }
 
+        int salary = 500;
+        if (salary>=500)
+            System.out.println("\uD83D\uDE0A");
+         else
+            System.out.println("\uD83E\uDD2C");
+
+
 
 
 
