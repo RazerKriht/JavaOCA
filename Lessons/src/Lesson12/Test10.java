@@ -12,6 +12,8 @@ public class Test10 {
             a++;
         } else {
             System.out.println("a больше 20");
+            System.out.println("Meeh...");
+            a--;
         }
 
 
