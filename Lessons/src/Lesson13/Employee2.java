@@ -5,7 +5,7 @@ public class Employee2 {
         byte dayDedely = 1;
         final int a = 1;
         final int b = 2;
-        switch (dayDedely*1) {
+        switch (dayDedely * 1) {
             case a:
             case b:
             case 3:
