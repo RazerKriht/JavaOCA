@@ -12,7 +12,9 @@ class Student {
     }
 
     public static void main(String[] args) {
-        Student st1 = new Student(3);
+
+        Student st1 = new Student(1);
+
         if (st1.grade == 2) {
             System.out.println("Двоишник");
         } else if (st1.grade == 3) {
