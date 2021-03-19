@@ -2,7 +2,7 @@ package Lesson13;
 
 public class Employee2 {
     public static void main(String[] args) {
-        int dayDedely = 1;
+        byte dayDedely = 1;
         final int a = 1;
         final int b = 2;
         switch (dayDedely*1) {
