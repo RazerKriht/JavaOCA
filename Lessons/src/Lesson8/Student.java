@@ -6,16 +6,16 @@ public class Student {
     static int count;
     int a;
 
-    public Student(String name2, int course2){
+    public Student(String name2, int course2) {
         count++;
-        name=name2;
-        course=course2;
-        System.out.println("Студент №"+count+" создан.");
+        name = name2;
+        course = course2;
+        System.out.println("Студент №" + count + " создан.");
 
     }
 
-    public static void showCount(){
-        System.out.println("Count = "+count);
+    public static void showCount() {
+        System.out.println("Count = " + count);
     }
 
     /* public static void main(String[] args) {
@@ -31,24 +31,25 @@ public class Student {
         st2.showCount();
     }*/
 
-    public void showInfo(){
+    public void showInfo() {
         System.out.println("Welcome to the Student class!!");
     }
-    void  abc(){
+
+    void abc() {
         a++;
         count++;
     }
 
-    static void abcd(){
+    static void abcd() {
         count++;
         //a++; Нельзя!!!!!!
-        Student st2 = new Student("Petr",1);
+        Student st2 = new Student("Petr", 1);
         st2.a++;
     }
 
     public static void main(String[] args) {
         abcd();
         //abc(); Нельзя!
-        Student st3 = new Student("Vlad",4);
+        Student st3 = new Student("Vlad", 4);
     }
 }

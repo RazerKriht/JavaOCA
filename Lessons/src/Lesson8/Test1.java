@@ -4,7 +4,7 @@ public class Test1 {
 
     //public final int a;
 
-    public static final int a=10;
+    public static final int a = 10;
 
 
     /*Test1(){
@@ -16,7 +16,7 @@ public class Test1 {
     }*/
     //
 
-    public void abc(final short s){
+    public void abc(final short s) {
         final byte b = 10;
     }
 

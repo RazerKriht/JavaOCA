@@ -1,6 +1,6 @@
 package Homework;
 
-class Student{
+class Student {
     int number;
     String firstName;
     String secondName;
@@ -10,7 +10,7 @@ class Student{
     int englishAverageScore;
 }
 
-class StudentTest{
+class StudentTest {
     public static void main(String[] args) {
         Student s1 = new Student();
         s1.number = 1;

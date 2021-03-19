@@ -5,16 +5,18 @@ public class Car2 {
     String engine;
     int speed; //Hello!
 
-    int gas(int speedNum){
-        speed*=speedNum;
+    int gas(int speedNum) {
+        speed *= speedNum;
         return speed;
     }
-    int brake(int speedNum){
-        speed*=speedNum;
+
+    int brake(int speedNum) {
+        speed *= speedNum;
         return speed;
     }
-    void showInfo(){
-        System.out.println("Цвет:"+color+" Мотор:"+engine+" Скорость:"+speed);
+
+    void showInfo() {
+        System.out.println("Цвет:" + color + " Мотор:" + engine + " Скорость:" + speed);
     }
 }
 

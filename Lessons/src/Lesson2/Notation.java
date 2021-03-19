@@ -17,7 +17,7 @@ public class Notation {
         int a9 = 03641100;
         int a10 = 0xF4240;
 
-        System.out.println("\n"+a7);
+        System.out.println("\n" + a7);
         System.out.println(a8);
         System.out.println(a9);
         System.out.println(a10);

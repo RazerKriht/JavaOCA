@@ -49,7 +49,7 @@ public class Lesson2 {
         boolean bu1 = true;
         boolean bu2 = false;
 
-        System.out.println("\n\n"+f1);
+        System.out.println("\n\n" + f1);
         System.out.println(f2);
         System.out.println(d1);
         System.out.println(d2);
@@ -62,7 +62,7 @@ public class Lesson2 {
         char c4 = 'e';
         char c5 = 'r';
 
-        System.out.println("\n\n"+c1+c2+c3+c4+c5);
+        System.out.println("\n\n" + c1 + c2 + c3 + c4 + c5);
 
     }
 }

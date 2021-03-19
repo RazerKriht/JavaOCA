@@ -5,7 +5,8 @@ public class Car {
     String color = "red";
     String engine = "V6";
 }
-class CarTest{
+
+class CarTest {
     public static void main(String[] args) {
         int a;
         String candy = new String("Alpin Gold");
@@ -17,9 +18,9 @@ class CarTest{
         Car car3;
         System.out.println(new Car().color);
 
-        car1.color="balck";
-        car1.engine="V8";
-        System.out.println(car1.color+" " +car1.engine);
+        car1.color = "balck";
+        car1.engine = "V8";
+        System.out.println(car1.color + " " + car1.engine);
     }
 }
 

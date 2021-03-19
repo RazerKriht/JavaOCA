@@ -1,6 +1,6 @@
 package Homework.Lesson5;
 
-class Student{
+class Student {
     int number;
     String firstName;
     String secondName;
@@ -10,11 +10,11 @@ class Student{
     int englishAverageScore;
 }
 
-class StudentTest{
+class StudentTest {
 
-    double sredArifmOcenka(Student st){
-        double sredArifmOcenka = (st.mathAverageScore+st.economicAverageScore+st.englishAverageScore)/3;
-        System.out.println("Sred: "+st.firstName+" "+st.secondName+": " +sredArifmOcenka);
+    double sredArifmOcenka(Student st) {
+        double sredArifmOcenka = (st.mathAverageScore + st.economicAverageScore + st.englishAverageScore) / 3;
+        System.out.println("Sred: " + st.firstName + " " + st.secondName + ": " + sredArifmOcenka);
         return sredArifmOcenka;
     }
 
