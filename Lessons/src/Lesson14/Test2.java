@@ -8,13 +8,14 @@ public class Test2 {
         }
         System.out.println("\n\n");
 
-        for (int i = 5; i < 11; i+=1,abc(i));
+        for (int i = 5; i < 11; i += 1, abc(i)) ;
         System.out.println("\n\n");
-        for (int i = 5; i < 11; i+=1){
+        for (int i = 5; i < 11; i += 1) {
             abc(i);
         }
     }
-    static void abc(int n){
+
+    static void abc(int n) {
         System.out.println(n);
     }
 }
